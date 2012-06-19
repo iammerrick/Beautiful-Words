@@ -1,0 +1,27 @@
+!!! 5
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		link(rel='stylesheet', href='css/screen.css')
+		title= locals.title
+	body
+	div.container
+		div.header
+			h1
+				img(src='images/title.png')
+		- var quotes = page.metadata.quotes;
+		for quote in quotes
+			div.post
+				p
+					= quote.body
+					span.small \ - #{quote.credit}
+
+				div.details 
+					if quote.src
+						| From:\ 
+						a(href=quote.src.url)= quote.src.name
+
+					if quote.tags
+						| \ In:\ 
+						for tag in quote.tags
+							a(href='javascript:;')= tag

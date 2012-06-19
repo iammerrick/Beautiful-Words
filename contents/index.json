@@ -1,0 +1,20 @@
+{
+	"title": "Beautiful Words",
+	"template" : "index.jade",
+	"quotes" : [
+		{
+			"body": "Complaining is stupid. Either act or forget.",
+			"credit": "Stefan Sagmeister",
+			"src": {
+				"url": "http://www.amazon.com/gp/product/0810995298/ref=as_li_ss_tl?ie=UTF8&tag=swiswidesgonn-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0810995298",
+				"name": "Things I have learned in my life so far"
+			},
+			"tags": ["wisdom"]
+		},
+		{
+			"body": "The absence of clutter is just a clutter-free product. That’s not simple.",
+			"credit": "Jonathan Ive",
+			"tags": ["design"]
+		}
+	]
+}
