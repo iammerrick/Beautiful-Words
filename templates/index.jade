@@ -19,7 +19,7 @@ html(lang='en')
 				div.details 
 					if quote.src
 						| From:\ 
-						a(href=quote.src.url)= quote.src.name
+						a(href=quote.src.url, target='_blank')= quote.src.name
 
 					if quote.tags
 						| \ In:\ 
